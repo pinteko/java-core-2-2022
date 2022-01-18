@@ -38,7 +38,8 @@ public class MyMassiveClass {
                                 throw new MyArrayDataException();
                             }
                             numbers[i][j] = Integer.parseInt(str[i][j].trim());
-                            sum = sum + numbers[i][j];
+                            sum = sum + numbers[i][j]; // лишний массив интов
+                            // sum += Integer.parseInt(str[i][j]);
                         }
                         catch (NumberFormatException e) {
                             System.out.println("Wrong format on str[" + i + "]" + "[" + j + "]");
