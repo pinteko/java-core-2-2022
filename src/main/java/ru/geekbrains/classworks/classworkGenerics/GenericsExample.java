@@ -29,7 +29,7 @@ public class GenericsExample {
     private static void numbersExample() {
         var boxI = new BoxWithNumbers<>(2313, 123, 21312, 12321);
         var boxD = new BoxWithNumbers<>(2313.0, 123.0, 21312.0, 12321.0);
-//        var boxS = new BoxWithNumbers<String>("1000.0");
+ //       var boxS = new BoxWithNumbers<>("1000.0");
         System.out.println(boxI.avg());
         System.out.println(boxD.equalsByAvg(boxI));
 //        boxI.setNumbers(new Float[] {1f, 2f});

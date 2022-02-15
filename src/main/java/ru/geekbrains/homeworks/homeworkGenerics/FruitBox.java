@@ -15,10 +15,11 @@ public class FruitBox<F extends Fruit> {
     }
 
     public boolean compare(FruitBox<?> fruitBox) {
-        return this.getWeight() == fruitBox.getWeight();
+        return Math.abs(this.getWeight() - fruitBox.getWeight()) < 0.0001;
     }
 
     public void intersperse(FruitBox<F> fruitBox) {
+        if (this == fruitBox) return;
             this.fruit.addAll(fruitBox.getFruit());
             fruitBox.getFruit().clear();
 
