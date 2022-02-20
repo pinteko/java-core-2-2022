@@ -119,7 +119,7 @@ public class DatabaseExample {
 //        }
         connection = DriverManager.getConnection(DB_CONNECTION_STRING);
         statement = connection.createStatement();
-        ps = connection.prepareStatement(insertStatement);
+      ps = connection.prepareStatement(insertStatement);
     }
 
 
