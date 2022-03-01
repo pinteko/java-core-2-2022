@@ -1,0 +1,11 @@
+INFO  2022-03-01 20:08:15 [main] ru.geekbrains.classworks.log4j_junit.LoggingExample (LoggingExample.java:17) - Number = 3.24E-4 and string = Hi
+TRACE 2022-03-01 20:08:15 [main] ru.geekbrains.classworks.log4j_junit.LoggingExample (LoggingExample.java:19) - Trace log
+DEBUG 2022-03-01 20:08:15 [main] ru.geekbrains.classworks.log4j_junit.LoggingExample (LoggingExample.java:20) - Debug log
+INFO  2022-03-01 20:08:15 [main] ru.geekbrains.classworks.log4j_junit.LoggingExample (LoggingExample.java:21) - Info log
+WARN  2022-03-01 20:08:15 [main] ru.geekbrains.classworks.log4j_junit.LoggingExample (LoggingExample.java:22) - Warn log
+ERROR 2022-03-01 20:08:15 [main] ru.geekbrains.classworks.log4j_junit.LoggingExample (LoggingExample.java:23) - Error log
+FATAL 2022-03-01 20:08:15 [main] ru.geekbrains.classworks.log4j_junit.LoggingExample (LoggingExample.java:24) - Fatal log
+INFO  2022-03-01 20:08:15 [Thread-0] ru.geekbrains.classworks.log4j_junit.LoggingExample (LoggingExample.java:26) - Another thread
+ERROR 2022-03-01 20:08:15 [main] ru.geekbrains.classworks.log4j_junit.LoggingExample (LoggingExample.java:31) - Throwing
+java.lang.RuntimeException: AAAAAAAAAAAAAA
+	at ru.geekbrains.classworks.log4j_junit.LoggingExample.main(LoggingExample.java:29) [classes/:?]
